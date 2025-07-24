@@ -1,0 +1,95 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+/* color- 1 */
+.color-primary{
+    color: rgba(233, 90, 8, 1);
+}
+
+/* color -2  */
+.color-secondary{
+    color: rgba(0, 0, 0, 0.5);
+}
+/* color - 3 */
+.color-three{
+    color: rgba(137, 135, 161, 1);
+}
+
+/* color -4 */
+.color-four{
+    color: rgba(37, 36, 50, 1);
+}
+
+/* header styles */
+
+/* navbar related styles */
+
+.navbar{
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-links{
+    text-decoration: none;
+    font-weight: 500;
+
+
+}
+
+.hero-flower{
+    max-width: 1440px;
+    margin-top: 220px;
+    margin-left: 150px;
+    text-align: center;
+    
+}
+
+.hero-text{
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-tagline{
+    /* margin-top: 200px; */
+    font-size: 65px;
+}
+
+.hero-para{
+    font-size: 25px;
+}
