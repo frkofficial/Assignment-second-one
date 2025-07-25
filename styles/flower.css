@@ -167,6 +167,97 @@
     font-weight: 400;
     font-family: 22px;
 }
+/* section - 04 */
+.deal-container{
+    max-width: 1440px;
+}
+.deal-head{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    margin-left:300px ;
+}
+
+.deal-para{
+    color: rgba(137, 135, 161, 1);
+    text-align: center ;
+    margin-top: 0px;
+    font-size: 22px;
+    margin-left: 450px;
+}
+
+.deal-img-container{
+   margin-left: 200px;
+   gap: 30px;
+}
+
+.ana-bloom{
+    gap: 50px;
+}
+.deal-zabo{
+    /* width: 750px; */
+    /* height: 430px; */
+    border: 1px solid white;
+    /* border-radius: 80px; */
+}
+
+/* offers */
+
+/* offer-1 */
+
+.box-1{
+    position: relative;
+}
+
+.offer-1{
+    top: -150px;
+    right: -50px;
+    font-weight: 800;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+}
+
+.offer-1 a{
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    
+}
+
+/* offer - 2 */
+.box-2{
+    position: relative;
+    top: -115px;
+}
+
+.offer-2{
+    top: -280px;
+    right: -50px;
+    font-weight: 800;
+    font-size: 20px;
+     color: rgba(255, 255, 255, 1);
+}
+
+.offer-2 a{
+    color: rgba(255, 255, 255, 1);
+}
+
+/* offer - 03 */
+.box-3{
+    position: relative;
+}
+
+.offer-3{
+    left: -300px;
+    bottom: -100px;
+    font-weight: 800;
+    font-size: 20px;
+     color: rgba(255, 255, 255, 1);
+}
+
+.offer-3 a{
+    color: rgba(255, 255, 255, 1);
+}
 
 /* section - 05 */
 .sub-color{
@@ -207,16 +298,12 @@
 }
 
 .footer-container{
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-left: 190px;
-    /* margin-right: 160px; */
-    margin-bottom: 50px;
+    justify-content:space-evenly;
+    margin-left: 200px;
 }
 
 .footer-brand{
-    margin-right: 110px;
-    border: 3px solid red;
+    
 }
 
 .footer-links ul {
@@ -225,27 +312,22 @@
 }
 .footer-links a {
   text-decoration: none;
+  /* margin-bottom: 40px; */
   
 }
 
-.ul-first{
-    margin-right: 190px;
+.footer-links li{
+    margin-bottom: 30px;
+    /* color: rgba(137, 135, 161, 1); */
 }
-
 .ul-second{
-    margin-right: 200px;
+    
 }
 
-
-.footer-links a:hover {
-  color: #000;
-}
 
 
 
 .footer-social{
-    /* margin-left: 500px; */
-    margin-right: 160px;
-    align-items: center;
-    gap: 20px;
+    gap: 30px;
+    /* display: block; */
 }
